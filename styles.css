@@ -1,0 +1,239 @@
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+nav{
+    display: flex;
+    width: 100%;
+    height:4em;
+    border-bottom: 1px solid grey;
+    background-color: #191919;
+    margin-top: 0;
+    align-items: center;
+}
+nav a{
+    width: 100%;
+    padding: 10px 18px;
+    font-weight: 200;
+    color:white;
+    margin-left: 3em;
+	text-decoration: none;
+
+}
+nav a:hover{
+    border: 2px solid rgb(70,30, 37);
+    background-color: rgb(70, 30,37);
+    border-radius: 10px;
+}
+.logo{
+	width: 3em;
+    height: 3em;
+}
+.detail{
+    width: 100%;
+    height: 58vh;
+    background-color: #191919;
+    color: white;
+}
+.detail h1 {
+    padding-left: 10em ;
+    padding-top: 1em;
+	font-size: 45px;
+    color: grey;
+}
+h6{
+    padding-left: 18em ;
+    padding-top: 2em;
+    font-weight: lighter;
+    font-style: italic;
+    font-size: 25px;
+}
+.btn1{
+    width: 15rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 7px;
+    margin-left: 27em;
+    margin-top: 2em;
+}
+.btn1:hover{
+    background-color: grey;
+    cursor: pointer;
+}
+.btn2{
+    width: 15rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 11px;
+    border-radius: 7px;
+    color: white;
+    border-color: #A38183;
+    background:transparent
+}
+.btn2:hover{
+    border-color: white;
+    cursor: pointer;
+}
+.sub{
+    margin-top: -3em;
+    background-color: #F9F9FB;
+}
+p{
+    margin-top: 3em;
+    margin-left: 17rem;
+    font-size: medium;
+    font-weight: 600;
+}
+span{
+   color: #D30038;
+}
+h4{
+    margin-left: 17rem;
+    margin-top:1rem ;
+    font-size: 30px;
+    font-weight: 350;
+    font-style: initial;
+}
+
+.p1{
+    margin-top: 2em;
+    font-style: italic;
+    font-weight: 400;
+    font-size: medium;
+}
+.btn3{
+    width: 8rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    background-color:black;
+    color: aliceblue;
+    margin-left: 17rem;
+    margin-top: 2rem;
+    border-radius: 7px;
+}
+.btn3:hover{
+    background-color:#696969;
+    cursor: pointer;
+}
+.box img {
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 3px 22px rgb(43 42 51 / 10%);
+    height: 100%;
+    width: 25rem;
+    margin-left: 60em;
+    margin-top:-15em;
+    margin-bottom: 3em;
+
+}
+.wrapper{
+    background-color: white;
+}
+.img-container{
+    margin-left:10em ;
+    margin-top:4em;
+    margin-bottom: 15em;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 3px 22px rgb(43 42 51 / 10%);
+    height: 100%;
+    width: 25rem;
+}
+.text p{
+    color: #D30038;
+    margin-left:60em;
+    margin-top: -32em;
+}
+ .text h3 {
+    margin-left:50em;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: larger;
+
+}
+.text2{
+    margin-left: 43em;
+    margin-top: 1em;
+}
+.text2 p{
+    margin-top: 2em;
+    font-style: italic;
+    font-weight: 400;
+    font-size: medium;
+}
+.btn4{
+    width: 8rem;
+    font-size: medium;
+    font-weight: bold;
+    padding: 5px;
+    background-color:black;
+    color: aliceblue;
+    margin-left: 60rem;
+    margin-top: 2rem;
+    border-radius: 7px;
+}
+.btn4:hover{
+    background-color:#696969;
+    cursor: pointer;
+}
+.dub{
+    height: 60vh;
+    background-color: #F9F9FB;
+}
+.end{
+    background-color: #343434;
+    width: 100%;
+    height: 58vh;
+    color:#cdcdcd;
+}
+.list-1{
+    width: 100px;
+    margin-left: 20em;
+    list-style-type: none;
+    padding: 5em;
+}
+.list-1 li{
+    padding-top: 15px;
+}
+.list-2{
+    width: 100px;
+    margin-left: 43em;
+    list-style-type: none;
+    margin-top: -14.6em;
+    
+}
+.list-2 li{
+    padding-top: 15px;
+}
+.list-3{
+    width: 100px;
+    margin-left: 64em;
+    margin-top: -9.6em;
+    list-style-type: none;
+}
+.list-3 li{
+    padding-top: 15px;
+}
+.list-4{
+    margin-left: 85em;
+    margin-top:-9.5em;
+    list-style-type: none;
+}
+.list-4 li{
+    padding-top: 15px;
+}
+.end h2{
+    margin-left: 2em;
+    margin-top:-5.5em;
+}
+.h6 p{
+    margin-left: 3em;
+    margin-top: 1em;
+}
